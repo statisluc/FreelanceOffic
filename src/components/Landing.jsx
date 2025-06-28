@@ -6,10 +6,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 function Landing() {
   return (
     <div>
-      <Parallax
-        className="w-full h-screen bg-linear-to-br from-pink-500 to-orange-500"
-        pages={8}
-      >
+      <Parallax className="w-full h-screen " pages={8}>
         <ParallaxLayer
           className="relative w-full h-screen flex flex-col px-4 pt-40"
           offset={0}

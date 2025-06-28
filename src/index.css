@@ -39,9 +39,7 @@
 @layer base {
   html,
   body {
-    @apply bg-gradient-to-br from-pink-500 to-orange-500 m-0 h-full overscroll-y-contain;
-    margin: 0;
-    height: 100%;
+    @apply m-0 bg-gradient-to-br from-pink-500 to-orange-500 min-h-screen bg-scroll;
   }
 }
 

@@ -4,9 +4,9 @@ import Landing from "./Landing";
 function Hero() {
   return (
     <>
-      <div className="bg-red-300">
+      <div>
         <Landing />
-        <h1>WELCOME TO THE WEBSITE</h1>
+        <h1>Quick Little Test</h1>
       </div>
     </>
   );
