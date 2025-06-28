@@ -11,26 +11,16 @@ function Landing() {
         pages={8}
       >
         <ParallaxLayer
-          className="flex items-start justify-start px-4 pt-40"
+          className="flex flex-col items-start justify-start px-4 pt-40"
           offset={0}
           speed={2}
           sticky={{ start: 0, end: 5 }}
         >
-          <h1 className="text-9xl font-rubik">Marketing Yourself...</h1>
-        </ParallaxLayer>
-
-        <ParallaxLayer
-          className="pt-77 w-full h-screen flex justify-end px-4 text-right"
-          offset={1}
-          speed={0.1}
-          sticky={{ start: 3, end: 5 }}
-        >
-          <h1 className="text-8xl font-bungee">
-            ...Just Got A Whole Lot Easier.
+          <h1 className="text-9xl font-rubik text-white">
+            Marketing Yourself...
           </h1>
-        </ParallaxLayer>
-        <div className="w-fulll h-screen absolute bottom-32 text-white">
-          <ParallaxLayer>
+          <h2 className="text-4xl font-oswald">Literally wtf</h2>
+          <div className="flex text-white bottom-32 left-50">
             <svg
               className="w-12 h-12"
               fill="none"
@@ -44,7 +34,23 @@ function Landing() {
                 d="M19 9l-7 7-7-7"
               />
             </svg>
-          </ParallaxLayer>
+          </div>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          className="pt-77 w-full h-screen flex justify-end px-4 text-right"
+          offset={1}
+          speed={0.1}
+          sticky={{ start: 3, end: 5 }}
+        >
+          <h1 className="text-8xl font-bungee text-white">
+            ...Just Got A Whole Lot Easier.
+          </h1>
+        </ParallaxLayer>
+        <div className="w-fulll h-screen absolute bottom-32 text-white">
+          {/* <ParallaxLayer>
+
+          </ParallaxLayer> */}
         </div>
       </Parallax>
     </div>
