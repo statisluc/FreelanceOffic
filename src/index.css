@@ -1,1 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+  --font-honk: "Honk", sans-serif;
+  --font-monoton: "Monoton", sans-serif;
+}
+
+@layer utilities {
+  .font-honk {
+    font-family: var(--font-honk);
+  }
+  .font-monoton {
+    font-family: var(--font-monoton);
+  }
+}
