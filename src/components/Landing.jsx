@@ -7,7 +7,7 @@ function Landing() {
   return (
     <div>
       <Parallax
-        className="bg-linear-to-br from-pink-500 to-orange-500"
+        className="w-full h-screen bg-linear-to-br from-pink-500 to-orange-500"
         pages={8}
       >
         <ParallaxLayer
@@ -29,6 +29,23 @@ function Landing() {
             ...Just Got A Whole Lot Easier.
           </h1>
         </ParallaxLayer>
+        <div className="w-fulll h-screen absolute bottom-32 text-white">
+          <ParallaxLayer>
+            <svg
+              className="w-12 h-12"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLineCap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </ParallaxLayer>
+        </div>
       </Parallax>
     </div>
   );
