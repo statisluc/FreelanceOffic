@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Bungee+Shade&display=swap");
 
 @import "tailwindcss";
 
@@ -9,6 +9,7 @@
   --font-rubik-doodle-shadow: "Rubik Doodle Shadow", sans-serif;
   --font-rubik-maps: "Rubik Maps", sans-serif;
   --font-big-shoulders-inline: "Big Shoulders Inline", sans-serif;
+  --font-bungee-shade: "Bungee Shade", sans-serif;
 }
 
 @layer utilities {
@@ -29,5 +30,8 @@
   }
   .font-shoulders {
     font-family: var(--font-big-shoulders-inline);
+  }
+  .font-bungee {
+    font-family: var(--font-bungee-shade);
   }
 }

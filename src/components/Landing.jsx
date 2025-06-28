@@ -20,7 +20,7 @@ function Landing() {
           speed={0.5}
           sticky={{ start: 3, end: 5 }}
         >
-          <h1 className="text-9xl font-oswald">
+          <h1 className="text-8xl font-bungee">
             ...Just Got A Whole Lot Easier.
           </h1>
           <h1 className="font-shoulders">TESTING 123</h1>
