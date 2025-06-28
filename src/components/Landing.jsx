@@ -1,0 +1,30 @@
+import Hero from "./Hero.jsx";
+import Home from "./Home.jsx";
+import React from "react";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+
+function Landing() {
+  return (
+    <div>
+      <Parallax
+        className="bg-linear-to-br from-pink-500 to-orange-500"
+        pages={8}
+      >
+        <ParallaxLayer offset={0} speed={2} sticky={{ start: 0, end: 5 }}>
+          <h1>Marketing Yourself...</h1>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          className="pt-4"
+          offset={1}
+          speed={0.5}
+          sticky={{ start: 3, end: 5 }}
+        >
+          <h1>...Just Got A Whole Lot Easier.</h1>
+        </ParallaxLayer>
+      </Parallax>
+    </div>
+  );
+}
+
+export default Landing;

@@ -1,11 +1,12 @@
 import React from "react";
+import Landing from "./Landing";
 
 function Hero() {
   return (
     <>
-      <div>
-        <h1 className="text-red-800">Marketing Yourself</h1>
-        <h1>Just Got a Whole Lot Easier</h1>
+      <div className="bg-red-300">
+        <Landing />
+        <h1>WELCOME TO THE WEBSITE</h1>
       </div>
     </>
   );
