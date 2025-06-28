@@ -11,7 +11,7 @@ function Landing() {
         pages={8}
       >
         <ParallaxLayer offset={0} speed={2} sticky={{ start: 0, end: 5 }}>
-          <h1 className="text-9xl font-honk">Marketing Yourself...</h1>
+          <h1 className="text-9xl font-rubik">Marketing Yourself...</h1>
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -20,9 +20,10 @@ function Landing() {
           speed={0.5}
           sticky={{ start: 3, end: 5 }}
         >
-          <h1 className="text-9xl font-monoton">
+          <h1 className="text-9xl font-oswald">
             ...Just Got A Whole Lot Easier.
           </h1>
+          <h1 className="font-shoulders">TESTING 123</h1>
         </ParallaxLayer>
       </Parallax>
     </div>

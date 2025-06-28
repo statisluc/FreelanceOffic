@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap");
 
 @import "tailwindcss";
 
 @theme {
   --font-honk: "Honk", sans-serif;
   --font-monoton: "Monoton", sans-serif;
+  --font-oswald: "Oswald", sans-serif;
+  --font-rubik-doodle-shadow: "Rubik Doodle Shadow", sans-serif;
+  --font-rubik-maps: "Rubik Maps", sans-serif;
+  --font-big-shoulders-inline: "Big Shoulders Inline", sans-serif;
 }
 
 @layer utilities {
@@ -13,5 +17,17 @@
   }
   .font-monoton {
     font-family: var(--font-monoton);
+  }
+  .font-oswald {
+    font-family: var(--font-oswald);
+  }
+  .font-rubik {
+    font-family: var(--font-rubik-doodle-shadow);
+  }
+  .font-maps {
+    font-family: var(--font-rubik-maps);
+  }
+  .font-shoulders {
+    font-family: var(--font-big-shoulders-inline);
   }
 }
