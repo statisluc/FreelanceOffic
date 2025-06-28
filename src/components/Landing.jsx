@@ -10,7 +10,12 @@ function Landing() {
         className="bg-linear-to-br from-pink-500 to-orange-500"
         pages={8}
       >
-        <ParallaxLayer offset={0} speed={2} sticky={{ start: 0, end: 5 }}>
+        <ParallaxLayer
+          className="bottom-40"
+          offset={0}
+          speed={2}
+          sticky={{ start: 0, end: 5 }}
+        >
           <h1 className="text-9xl font-rubik">Marketing Yourself...</h1>
         </ParallaxLayer>
 
