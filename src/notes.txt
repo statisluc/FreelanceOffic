@@ -1,0 +1,15 @@
+notes:
+
+disable highligting of text
+fix the breathing arrow that should appear under the first h1 text (this should be in the same parallaxlayer component so it matches)
+
+
+screenshot of screen working on that exact website lmfao (landing page screenshot on the mac)
+
+"This could be your website", text matching the background with black outline, white background button that links to pricing
+
+have three cards appear horizontally across the page. one of them is for pricing, the second is for FAQ, third is contact 
+
+at the end have your information, email, github, yee
+
+
