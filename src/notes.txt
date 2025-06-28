@@ -1,8 +1,9 @@
 notes:
 
 disable highligting of text
-fix the breathing arrow that should appear under the first h1 text (this should be in the same parallaxlayer component so it matches)
 
+
+see if you can make the gradient apply across the entire page 
 
 screenshot of screen working on that exact website lmfao (landing page screenshot on the mac)
 

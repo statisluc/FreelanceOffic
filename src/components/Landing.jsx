@@ -11,7 +11,7 @@ function Landing() {
         pages={8}
       >
         <ParallaxLayer
-          className="flex flex-col items-start justify-start px-4 pt-40"
+          className="relative w-full h-screen flex flex-col px-4 pt-40"
           offset={0}
           speed={2}
           sticky={{ start: 0, end: 5 }}
@@ -19,10 +19,10 @@ function Landing() {
           <h1 className="text-9xl font-rubik text-white">
             Marketing Yourself...
           </h1>
-          <h2 className="text-4xl font-oswald">Literally wtf</h2>
-          <div className="flex text-white bottom-32 left-50">
+
+          <div className="absolute flex justify-center text-white bottom-32 inset-x-0 breathe">
             <svg
-              className="w-12 h-12"
+              className="w-16 h-16"
               fill="none"
               stroke="currentColor"
               strokeWidth="2"
@@ -31,7 +31,7 @@ function Landing() {
               <path
                 strokeLineCap="round"
                 strokeLinejoin="round"
-                d="M19 9l-7 7-7-7"
+                d="M22 10  L12 18  L2 10"
               />
             </svg>
           </div>
