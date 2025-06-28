@@ -22,7 +22,7 @@ function Landing() {
         <ParallaxLayer
           className="pt-77 w-full h-screen flex justify-end px-4 text-right"
           offset={1}
-          speed={0.5}
+          speed={0.1}
           sticky={{ start: 3, end: 5 }}
         >
           <h1 className="text-8xl font-bungee">
