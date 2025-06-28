@@ -11,7 +11,7 @@ function Landing() {
         pages={8}
       >
         <ParallaxLayer
-          className="bottom-40"
+          className="flex items-start justify-start px-4 pt-40"
           offset={0}
           speed={2}
           sticky={{ start: 0, end: 5 }}
@@ -20,7 +20,7 @@ function Landing() {
         </ParallaxLayer>
 
         <ParallaxLayer
-          className="pt-36"
+          className="pt-77 w-full h-screen flex justify-end px-4 text-right"
           offset={1}
           speed={0.5}
           sticky={{ start: 3, end: 5 }}
@@ -28,7 +28,6 @@ function Landing() {
           <h1 className="text-8xl font-bungee">
             ...Just Got A Whole Lot Easier.
           </h1>
-          <h1 className="font-shoulders">TESTING 123</h1>
         </ParallaxLayer>
       </Parallax>
     </div>
