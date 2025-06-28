@@ -6,7 +6,6 @@ function Hero() {
     <>
       <div>
         <Landing />
-        <h1>Quick Little Test</h1>
       </div>
     </>
   );

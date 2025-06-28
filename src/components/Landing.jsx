@@ -1,12 +1,18 @@
 import Hero from "./Hero.jsx";
 import Home from "./Home.jsx";
 import React from "react";
+import Navbar from "./Navbar.jsx";
+
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function Landing() {
   return (
     <div>
       <Parallax className="w-full h-screen " pages={8}>
+        <ParallaxLayer sticky={{ start: 0, end: 8 }}>
+          <Navbar />
+        </ParallaxLayer>
+
         <ParallaxLayer
           className="relative w-full h-screen flex flex-col px-4 pt-40"
           offset={0}
