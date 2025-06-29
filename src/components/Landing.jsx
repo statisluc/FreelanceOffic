@@ -9,10 +9,6 @@ function Landing() {
   return (
     <div>
       <Parallax className="w-full h-screen " pages={8}>
-        <ParallaxLayer sticky={{ start: 0, end: 8 }}>
-          <Navbar />
-        </ParallaxLayer>
-
         <ParallaxLayer
           className="relative w-full h-screen flex flex-col px-4 pt-40"
           offset={0}
@@ -30,6 +26,7 @@ function Landing() {
               stroke="currentColor"
               strokeWidth="2"
               viewBox="0 0 24 24"
+              onClick={{}}
             >
               <path
                 strokeLineCap="round"

@@ -6,7 +6,6 @@ import Landing from "./components/Landing.jsx";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
     </>
   );

@@ -11,13 +11,15 @@ function Navbar() {
 
   return (
     <>
-      <h1>QUICK ASS TEST FROM NAVBAR</h1>
       <nav className="py-1 fixed top-0 w-full z-50 bg-white">
         <div className="hidden md:flex items-center justify-center space-x-4">
           <a href="#Home" className="navbarsolution">
             Home
           </a>
-          <a href="insert pricing" className="navbarsolution">
+          <a
+            href="https://www.pexels.com/search/random/"
+            className="navbarsolution"
+          >
             Pricing
           </a>
           <a href="insert faq" className="navbarsolution">
