@@ -37,7 +37,7 @@ function Navbar() {
           {/* <a href="insert faq" className="navbarsolution">
             FAQ
           </a> */}
-          <Link to={"/Contact"}>
+          <Link to={"/ContactFAKE"}>
             <button className="navbarsolution">Contact Me</button>
           </Link>
           {/* <a href="insert contact" className="navbarsolution">

@@ -11,7 +11,7 @@ function NotFound() {
         <h1 className="text-6xl font-rubik">Page Not Found!</h1>
         <Link to={"/"}>
           <button className="mt-4 bg-white px-4 py-2 rounded-md transition-transform transform hover:scale-110 active:bg-transparent">
-            <span className="font-bungee text-5xl bg-gradient-to-br from-pink-500 to-orange-500 bg-clip-text text-transparent inline-block active:text-white">
+            <span className="font-bungee text-5xl bg-gradient-to-br from-pink-500 to-orange-500 bg-clip-text text-transparent inline-block active:text-white cursor-pointer">
               Go Back Home
             </span>
           </button>
