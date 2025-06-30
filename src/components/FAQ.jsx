@@ -5,7 +5,7 @@ function FAQ() {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="flex flex-col justify-center items-center h-screen">
         <h1 className="text-4xl font-oswald">Header 1 of FAQ Page</h1>
         <p>Thought I should test this out to see if it works!</p>
       </div>
