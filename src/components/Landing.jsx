@@ -52,6 +52,12 @@ function Landing() {
 
           </ParallaxLayer> */}
         </div>
+        <ParallaxLayer
+          className="flex justify-center items-center h-screen"
+          offset={2}
+        >
+          <img src="yourcodehere.png" alt="Screenshot of Website Code"></img>
+        </ParallaxLayer>
       </Parallax>
     </div>
   );

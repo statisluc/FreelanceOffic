@@ -1,5 +1,8 @@
 notes:
 
+change the length of parallax from 8 pages to something much shorter. dont require the user to scroll as much.
+make sure the screenshot image stays put for the most part!
+
 disable highligting of text
 
 incorporate react router to accesss other pages watching this video: https://www.youtube.com/watch?v=c02YoWR9gSY&t=35s

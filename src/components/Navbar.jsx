@@ -14,19 +14,10 @@ function Navbar() {
     <>
       <nav className="py-1 fixed top-0 w-full z-50 bg-white">
         <div className="hidden md:flex items-center justify-center space-x-4">
-          {/* <a href="#Home" className="navbarsolution">
-            Home
-          </a> */}
           <Link to={"/"}>
             <button className="navbarsolution">Home</button>
           </Link>
 
-          {/* <a
-            href="https://www.pexels.com/search/random/"
-            className="navbarsolution"
-          >
-            Pricing
-          </a> */}
           <Link to={"/Pricing"}>
             <button className="navbarsolution">Pricing</button>
           </Link>
@@ -34,15 +25,10 @@ function Navbar() {
           <Link to={"/FAQ"}>
             <button className="navbarsolution">FAQ</button>
           </Link>
-          {/* <a href="insert faq" className="navbarsolution">
-            FAQ
-          </a> */}
+
           <Link to={"/ContactFAKE"}>
             <button className="navbarsolution">Contact Me</button>
           </Link>
-          {/* <a href="insert contact" className="navbarsolution">
-            Contact Me
-          </a> */}
         </div>
       </nav>
     </>
