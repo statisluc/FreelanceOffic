@@ -65,7 +65,7 @@ function Landing() {
           </ParallaxLayer> */}
         </div>
         <ParallaxLayer
-          className="flex justify-start items-left h-screen z-1"
+          className="flex justify-start items-left h-screen z-1 pt-16"
           offset={2}
           sticky={{ start: 4, end: 6 }}
         >
