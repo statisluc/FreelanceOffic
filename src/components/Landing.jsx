@@ -65,7 +65,7 @@ function Landing() {
           </ParallaxLayer> */}
         </div>
         <ParallaxLayer
-          className="flex justify-center items-center h-screen z-1"
+          className="flex justify-start items-left h-screen z-1"
           offset={2}
           sticky={{ start: 4, end: 6 }}
         >
@@ -77,8 +77,14 @@ function Landing() {
           ></img>
         </ParallaxLayer>
 
-        <ParallaxLayer>
-          <h1>This Could Be Your Website!</h1>
+        <ParallaxLayer
+          className="w-full h-screen flex justify-end text-right px-4 text-8xl"
+          speed={0.5}
+          sticky={{ start: 6, end: 6 }}
+        >
+          <h1 className="text-white font-oswald">
+            This Could Be Your Website!
+          </h1>
         </ParallaxLayer>
       </Parallax>
     </div>
