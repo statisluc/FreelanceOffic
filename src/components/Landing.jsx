@@ -17,7 +17,12 @@ function Landing() {
 
   return (
     <div>
-      <Parallax key={vh} className="w-full h-screen " pages={8}>
+      <Parallax
+        key={vh}
+        className="w-full h-screen "
+        pages={8}
+        config={{ tension: 200, friction: 50 }}
+      >
         <ParallaxLayer
           className="relative w-full h-screen flex flex-col px-4 pt-80 z-20"
           offset={0}
@@ -37,7 +42,7 @@ function Landing() {
               viewBox="0 0 24 24"
               onClick={() =>
                 document
-                  .getElementById("yourwebsite")
+                  .getElementById("couldbe")
                   .scrollIntoView({ behavior: "smooth" })
               }
             >
@@ -68,7 +73,7 @@ function Landing() {
         <ParallaxLayer
           className="flex justify-start items-left h-screen z-1 pt-16"
           offset={2}
-          sticky={{ start: 4, end: 6 }}
+          sticky={{ start: 4, end: 6.5 }}
         >
           <img
             src="yourcodehere.png"
@@ -79,12 +84,15 @@ function Landing() {
         </ParallaxLayer>
 
         <ParallaxLayer
-          className="w-full h-screen flex justify-end text-right px-4 text-8xl"
+          className="w-full h-screen h-auto w-[30%] object-contain flex justify-end text-right px-4 text-8xl"
           speed={0.5}
           sticky={{ start: 6, end: 6 }}
         >
-          <h1 className="text-white font-oswald">
-            This Could Be Your Website!
+          <h1
+            className="text-white font-oswald h-auto w-[30%] object-contain"
+            id="couldbe"
+          >
+            This Could ← Be Your Website!
           </h1>
         </ParallaxLayer>
         <ParallaxLayer sticky={{ start: 8, end: 8 }}>
