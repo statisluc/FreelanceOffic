@@ -2,6 +2,7 @@ import Hero from "./Hero.jsx";
 import Home from "./Home.jsx";
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar.jsx";
+import Card from "./Card.jsx";
 
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
@@ -85,6 +86,11 @@ function Landing() {
           <h1 className="text-white font-oswald">
             This Could Be Your Website!
           </h1>
+        </ParallaxLayer>
+        <ParallaxLayer sticky={{ start: 8, end: 8 }}>
+          <Card>
+            <h2>Quick Little Test</h2>
+          </Card>
         </ParallaxLayer>
       </Parallax>
     </div>
