@@ -18,7 +18,7 @@ export default FAQ;
 // 1) What do you charge based on?
 // I charge based on time, effort, and quality put into the project. Please see my pricing page HERE_link.
 // 2) What if I want my website to look a specific way?
-// I have video conference consultation calls where we can discuss the specifics of the website design and layout. These are
+// I have video conference consultation calls where we can discuss the specifics of the website design and layout. Every new client gets a free 15 minutes. After that, these are
 // $15 per hour, with a $5 down payment to start the meeting. Upon receiving this payment, we can schedule the minutes or hours of the meeting
 // and how much the total cost will be (subtract the $5 down payment). Failure to make the $5 deposit will result in no appointment being reached, and failure to pay for the meeting will result in termination of our partnership.
 // 3) I found a bug in the website! What can I do?
