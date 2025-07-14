@@ -29,7 +29,7 @@ function Landing() {
           speed={2}
           sticky={{ start: 0, end: 3 }}
         >
-          <h1 className="text-9xl font-rubik text-white">
+          <h1 className="text-9xl font-rubik text-white transform-gpu will-change-transform">
             Marketing Yourself...
           </h1>
 
@@ -61,7 +61,7 @@ function Landing() {
           speed={0}
           sticky={{ start: 2, end: 3 }}
         >
-          <h1 className="text-8xl font-bungee text-white">
+          <h1 className="text-8xl font-bungee text-white transform-gpu will-change-transform">
             ...Just Got A Whole Lot Easier.
           </h1>
         </ParallaxLayer>
@@ -73,7 +73,7 @@ function Landing() {
         <ParallaxLayer
           className="flex justify-start items-left h-screen z-1 pt-16"
           offset={2}
-          sticky={{ start: 4, end: 6.5 }}
+          sticky={{ start: 4, end: 5.5 }}
         >
           <img
             src="yourcodehere.png"
@@ -86,7 +86,8 @@ function Landing() {
         <ParallaxLayer
           className="w-full h-screen h-auto w-[30%] object-contain flex justify-end text-right px-4 text-8xl"
           speed={0.5}
-          sticky={{ start: 6, end: 6 }}
+          offset={5}
+          sticky={{ start: 5, end: 5 }}
         >
           <h1
             className="text-white font-oswald h-auto w-[30%] object-contain"
@@ -95,7 +96,7 @@ function Landing() {
             This Could ← Be Your Website!
           </h1>
         </ParallaxLayer>
-        <ParallaxLayer sticky={{ start: 8, end: 8 }}>
+        <ParallaxLayer sticky={{ start: 7, end: 8 }}>
           <div className="">
             <Card>
               <h2>Quick Little Test</h2>
