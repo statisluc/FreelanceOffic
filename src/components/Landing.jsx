@@ -21,12 +21,12 @@ function Landing() {
         key={vh}
         className="w-full h-screen "
         pages={8}
-        config={{ tension: 200, friction: 50 }}
+        config={{ tension: 170, friction: 26, clamp: true }}
       >
         <ParallaxLayer
           className="relative w-full h-screen flex flex-col px-4 pt-80 z-20"
           offset={0}
-          speed={2}
+          speed={0.2}
           sticky={{ start: 0, end: 3 }}
         >
           <h1 className="text-9xl font-rubik text-white transform-gpu will-change-transform">
@@ -78,19 +78,19 @@ function Landing() {
           <img
             src="yourcodehere.png"
             alt="Screenshot of Website Code!"
-            className="h-auto w-[70%] object-contain"
+            className="h-auto w-[70%] object-contain "
             id="yourwebsite"
           ></img>
         </ParallaxLayer>
 
         <ParallaxLayer
-          className="w-full h-screen h-auto w-[30%] object-contain flex justify-end text-right px-4 text-8xl"
+          className="w-full h-screen h-auto w-[30%] object-contain flex justify-end text-right px-4 text-8xl "
           speed={0.5}
           offset={5}
           sticky={{ start: 5, end: 5 }}
         >
           <h1
-            className="text-white font-oswald h-auto w-[30%] object-contain"
+            className="text-white font-oswald h-auto w-[30%] object-contain scroll-mt-[260px]"
             id="couldbe"
           >
             This Could ← Be Your Website!
