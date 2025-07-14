@@ -23,3 +23,5 @@ export default FAQ;
 // and how much the total cost will be (subtract the $5 down payment). Failure to make the $5 deposit will result in no appointment being reached, and failure to pay for the meeting will result in termination of our partnership.
 // 3) I found a bug in the website! What can I do?
 // Bugs are common and part of the software development cycle. For every website I make, I offer a 2 week warranty from date of deploymnet. This is your opportunity to "break" the website and report to me your findings. Any bug found after these two weeks can be resolved by me for $30, or $25 per hour of work, whichever greater.
+// 4) I hate this website/I don't need a website anymore. Can I get my money back?
+// Can I get my time back? As much as it may be inconvenient, all sales are final. The time and energy I invest into these websites cannot be refunded, hence I cannot offer refunds to anyone who has already initiated a website using my services. In extreme cases I may offer an exception, but this is not to be considered.
