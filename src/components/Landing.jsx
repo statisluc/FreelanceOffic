@@ -88,9 +88,11 @@ function Landing() {
           </h1>
         </ParallaxLayer>
         <ParallaxLayer sticky={{ start: 8, end: 8 }}>
-          <Card>
-            <h2>Quick Little Test</h2>
-          </Card>
+          <div className="">
+            <Card>
+              <h2>Quick Little Test</h2>
+            </Card>
+          </div>
         </ParallaxLayer>
       </Parallax>
     </div>

@@ -24,7 +24,7 @@ function Card({
   return (
     <div
       ref={ref}
-      className={`w-full max-w-[800px] transition-all duration-700 ease-out transform ${
+      className={`w-full max-w-[800px] text-center transition-all duration-700 ease-out transform ${
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       } bg-white p-6 rounded-xl shadow-xl ${className}`}
     >

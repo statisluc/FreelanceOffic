@@ -1,7 +1,6 @@
 notes:
 
-change the length of parallax from 8 pages to something much shorter. dont require the user to scroll as much.
-make sure the screenshot image stays put for the most part!
+within the landing page, for the card component. ensure that you put it in a horizontal grid that fits three. one for pricing, faq, and contact
 
 disable highligting of text
 
