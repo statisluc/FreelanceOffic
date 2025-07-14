@@ -73,7 +73,7 @@ function Landing() {
           <img
             src="yourcodehere.png"
             alt="Screenshot of Website Code!"
-            className="h-auto w-[70vw]"
+            className="h-auto w-[70%] object-contain"
             id="yourwebsite"
           ></img>
         </ParallaxLayer>
