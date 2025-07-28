@@ -97,10 +97,24 @@ function Landing() {
           </h1>
         </ParallaxLayer>
         <ParallaxLayer sticky={{ start: 7, end: 8 }}>
-          <div className="">
-            <Card>
-              <h2>Quick Little Test</h2>
-            </Card>
+          <div className="flex flex-col sm:flex-row sm:space-x-6 w-full px-4">
+            <div className="flex flex-row space-x-6 sm:w-full py-10">
+              <Card>
+                <h2>Quick Little Test</h2>
+              </Card>
+              <Card>
+                <h2>
+                  Lets hope for the best. I do hope that when I add sufficient
+                  text to this box, it doesn't overflow and end up looking like
+                  absolute donkey.
+                </h2>
+              </Card>
+              <Card>
+                <h2>
+                  I guess the best could come, but not how we all expected huh?
+                </h2>
+              </Card>
+            </div>
           </div>
         </ParallaxLayer>
       </Parallax>
