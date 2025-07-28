@@ -1,6 +1,6 @@
 notes:
 
-within the landing page, for the card component. ensure that you put it in a horizontal grid that fits three. one for pricing, faq, and contact
+
 
 disable highligting of text
 
