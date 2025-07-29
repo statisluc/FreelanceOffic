@@ -1,13 +1,87 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
+import Card from "./Card.jsx";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
+function FAQclick({ question, answer }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border-b border-gray-200 hover:bg-gray-50 transition">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between p-4"
+      >
+        <span className="text-left font-medium">{question}</span>
+        <svg
+          className={`w-5 h-5 transform transition-transform ${
+            open ? "rotate-180" : ""
+          }`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </button>
+      {open && <div className="px-4 pb-4 text-gray-700">{answer}</div>}
+    </div>
+  );
+}
 
 function FAQ() {
+  const faqs = [
+    {
+      q: "What do you charge based on?",
+      a: (
+        <>
+          I charge based on time, effort, and quality put into the project.
+          Please see my pricing page{" "}
+          <Link to={"/Pricing"} className="text-blue-600 hover:underline">
+            {" "}
+            here
+          </Link>
+          .{" "}
+        </>
+      ),
+    },
+    {
+      q: "Can we negotiate?",
+      a: (
+        <>
+          Unless we're talking about buying or selling cars, negotiation is
+          limited! However, I am always willing to help my clients. Sure, we
+          might be able to talk a few numbers, but most of the prices I give you
+          (and the prices seen in our PriceChecker) are firm! Please{" "}
+          <Link to={"/Contact"} className="text-blue-600 hover:underline">
+            {" "}
+            contact me
+          </Link>{" "}
+          for any further inquiries on this matter.
+        </>
+      ),
+    },
+    { q: "", a: "" },
+  ];
+
   return (
     <>
       <Navbar />
-      <div className="flex flex-col justify-center items-center h-screen">
-        <h1 className="text-4xl font-oswald">Header 1 of FAQ Page</h1>
-        <p>Thought I should test this out to see if it works!</p>
+      <div className="flex flex-col justify-start items-center text-start pt-24">
+        <Card className="max-w-[1300px] text-start">
+          <h1>Frequently Asked Questions (FAQ)</h1>
+        </Card>
+
+        <Card className="max-w-[1300px] text-start mt-4">
+          {faqs.map(({ q, a }, i) => (
+            <FAQclick key={i} question={q} answer={a} />
+          ))}
+        </Card>
       </div>
     </>
   );
