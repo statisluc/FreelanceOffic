@@ -97,11 +97,17 @@ function Landing() {
             This Could ← Be Your Website!
           </h1>
         </ParallaxLayer>
-        <ParallaxLayer sticky={{ start: 7, end: 8 }}>
+        <ParallaxLayer sticky={{ start: 6.75, end: 8 }}>
           <div className="flex flex-col sm:flex-row sm:space-x-6 w-full px-4">
             <div className="flex flex-row space-x-6 sm:w-full py-10">
               <Card>
-                <h2>Quick Little Test</h2>
+                <h2>
+                  Wondering about the costs of hiring us to make your website?
+                  Look no further than our pricing page! We even made it easy
+                  for you- click below to be transported to our pricing page
+                  where you can use our PriceChecker to evaluate the cost of
+                  your specific website!
+                </h2>
                 <div className="flex justify-center">
                   <Link to={"/Pricing"}>
                     <button className="landingbuttonsolution">Pricing</button>
@@ -109,10 +115,11 @@ function Landing() {
                 </div>
               </Card>
               <Card>
-                <h2>
-                  Lets hope for the best. I do hope that when I add sufficient
-                  text to this box, it doesn't overflow and end up looking like
-                  absolute donkey.
+                <h2 className="font-oswald">
+                  So say you have a couple of questions that you need answered?
+                  Well, check out my frequently asked questions by clicking the
+                  button below! Anything not answered by that page, feel free to
+                  check out my next option which is to...
                 </h2>
                 <div className="flex justify-center">
                   <Link to={"/FAQ"}>
@@ -121,9 +128,18 @@ function Landing() {
                 </div>
               </Card>
               <Card>
-                <h2>
-                  I guess the best could come, but not how we all expected huh?
+                <h2 className="font-oswald font-bold">
+                  ...Contact me! Click the button below to be transported to our
+                  contact page, where you can send a message to us and we will
+                  get back to you as soon as we can!
                 </h2>
+                <div className="flex justify-center">
+                  <Link to={"/Contact"}>
+                    <button className="landingbuttonsolution">
+                      Contact Us
+                    </button>
+                  </Link>
+                </div>
               </Card>
             </div>
           </div>
