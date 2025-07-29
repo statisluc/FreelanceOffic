@@ -3,6 +3,7 @@ import Home from "./Home.jsx";
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar.jsx";
 import Card from "./Card.jsx";
+import { Link } from "react-router-dom";
 
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
@@ -101,6 +102,11 @@ function Landing() {
             <div className="flex flex-row space-x-6 sm:w-full py-10">
               <Card>
                 <h2>Quick Little Test</h2>
+                <div className="flex justify-center">
+                  <Link to={"/Pricing"}>
+                    <button className="landingbuttonsolution">Pricing</button>
+                  </Link>
+                </div>
               </Card>
               <Card>
                 <h2>
@@ -108,6 +114,11 @@ function Landing() {
                   text to this box, it doesn't overflow and end up looking like
                   absolute donkey.
                 </h2>
+                <div className="flex justify-center">
+                  <Link to={"/FAQ"}>
+                    <button className="landingbuttonsolution">FAQs</button>
+                  </Link>
+                </div>
               </Card>
               <Card>
                 <h2>

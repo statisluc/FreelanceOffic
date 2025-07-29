@@ -45,6 +45,9 @@
     /* @apply font-oswald px-3 py-2 text-lg text-transparent bg-clip-text bg-gradient-to-br to-orange-500 transition transform hover:scale-110 active:bg-transparent active:text-white rounded-md; */
     @apply font-oswald px-3 py-2 text-lg text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-500 transition transform hover:scale-110 active:bg-transparent active:text-white rounded-md cursor-pointer;
   }
+  .landingbuttonsolution {
+    @apply mt-4 block bg-gradient-to-br from-pink-500 to-orange-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-pink-800 focus:outline-none transition-colors duration-200;
+  }
 }
 
 @keyframes breathe {
