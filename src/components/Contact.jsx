@@ -85,7 +85,7 @@ function Contact() {
             <button
               type="submit"
               disabled={isSending}
-              className="bg-white text-black text-4xl font-rubik rounded-xl px-8 py-3 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed hover:bg-[#331a00]"
+              className="bg-white text-black text-4xl font-rubik rounded-xl px-8 py-3 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed hover:bg-pink-300"
             >
               Submit
             </button>
