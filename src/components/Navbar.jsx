@@ -26,7 +26,7 @@ function Navbar() {
             <button className="navbarsolution">FAQ</button>
           </Link>
 
-          <Link to={"/ContactFAKE"}>
+          <Link to={"/Contact"}>
             <button className="navbarsolution">Contact Me</button>
           </Link>
         </div>
