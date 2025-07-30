@@ -1,6 +1,7 @@
 notes:
 
-
+fix animate slide 2 in landing.jsx
+fix this stupid ass brown shit bullshit (idk how it can be this hard honestly)
 
 disable highligting of text
 
