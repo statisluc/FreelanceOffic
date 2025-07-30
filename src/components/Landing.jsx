@@ -30,7 +30,7 @@ function Landing() {
           speed={0.2}
           sticky={{ start: 0, end: 3 }}
         >
-          <h1 className="text-9xl font-rubik text-white transform-gpu will-change-transform">
+          <h1 className="text-9xl font-rubik text-white transform-gpu will-change-transform animate-fade-slide">
             Marketing Yourself...
           </h1>
 

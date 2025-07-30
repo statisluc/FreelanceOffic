@@ -10,6 +10,8 @@
   --font-rubik-maps: "Rubik Maps", sans-serif;
   --font-big-shoulders-inline: "Big Shoulders Inline", sans-serif;
   --font-bungee-shade: "Bungee Shade", sans-serif;
+
+  --color-brown: #331a00;
 }
 
 @layer utilities {
@@ -49,6 +51,23 @@
   .animate-fade-slide {
     animation: fade-slide 3s ease-in-out;
   }
+  .animate-fade-slide2 {
+    animation: fade-slide 5s ease-in;
+  }
+  .underline-brown {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-brown);
+  }
+  .text-brown {
+    color: var(--color-brown);
+  }
+  .bg-brown {
+    background-color: var(--color-brown);
+  }
+  .border-brown {
+    border-color: var(--color-brown);
+  }
 }
 
 @layer base {
@@ -62,6 +81,9 @@
   }
   .landingbuttonsolution {
     @apply mt-4 block bg-gradient-to-br from-pink-500 to-orange-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-pink-800 focus:outline-none transition-colors duration-200 cursor-pointer;
+  }
+  .contactinputsolution {
+    @apply w-full border-b-2 border-brown-500 bg-transparent placeholder-brown-500 placeholder-opacity-100 focus:outline-none focus:placeholder-opacity-0;
   }
 }
 
