@@ -136,7 +136,7 @@ function Landing() {
                 <div className="flex justify-center">
                   <Link to={"/Contact"}>
                     <button className="landingbuttonsolution">
-                      Contact Us
+                      Contact Me
                     </button>
                   </Link>
                 </div>
