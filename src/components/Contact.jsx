@@ -39,31 +39,31 @@ function Contact() {
           <h1 className="text-5xl font-honk">Contact Page</h1>
         </Card>
 
-        <div className="flex flex-col space-y-6 max-w-md mx-auto">
+        <div className="flex flex-col space-y-6 max-w-md mx-auto mt-24">
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-col space-y-4"
+            className="flex flex-col space-y-4 font-fascinate"
           >
             <input
               type="text"
               name="user_name"
               placeholder="Name"
-              className="contactinputsolution"
+              className="w-full bg-transparent focus:outline-none border-b-4 border-[#331a00] font-fascinate"
             />
 
             <input
               type="email"
               name="user_email"
               placeholder="Email"
-              className="border-brown"
+              className="border-b-4 border-[#331a00] font-fascinate"
             />
 
             <textarea
               name="message"
               placeholder="Message"
               rows={4}
-              className="contactinputsolution"
+              className="border-b-4 border-[#331a00] font-fascinate bg-[#331a00]"
             />
             <input
               type="submit"

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Bungee+Shade&family=Fascinate+Inline&display=swap");
 
 @import "tailwindcss";
 
@@ -10,7 +10,7 @@
   --font-rubik-maps: "Rubik Maps", sans-serif;
   --font-big-shoulders-inline: "Big Shoulders Inline", sans-serif;
   --font-bungee-shade: "Bungee Shade", sans-serif;
-
+  --font-fascinate: "Fascinate Inline", sans-serif;
   --color-brown: #331a00;
 }
 
@@ -55,9 +55,7 @@
     animation: fade-slide 5s ease-in;
   }
   .underline-brown {
-    border-bottom-width: 4px;
-    border-bottom-style: solid;
-    border-bottom-color: var(--color-brown);
+    border-bottom: 4px solid var(--color-brown);
   }
   .text-brown {
     color: var(--color-brown);
@@ -81,9 +79,6 @@
   }
   .landingbuttonsolution {
     @apply mt-4 block bg-gradient-to-br from-pink-500 to-orange-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-pink-800 focus:outline-none transition-colors duration-200 cursor-pointer;
-  }
-  .contactinputsolution {
-    @apply w-full border-b-2 border-brown-500 bg-transparent placeholder-brown-500 placeholder-opacity-100 focus:outline-none focus:placeholder-opacity-0;
   }
 }
 
