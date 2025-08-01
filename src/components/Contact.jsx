@@ -78,7 +78,7 @@ function Contact() {
 
             <textarea
               AutoTextGrow
-              placeholder="What can we help you with?"
+              placeholder="What Can We Help You With?"
               className="input-brown text-3xl"
             />
 

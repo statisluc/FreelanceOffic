@@ -130,6 +130,10 @@ function FAQ() {
         </>
       ),
     },
+    {
+      q: "11) Do you work on/develop mobile apps?",
+      a: "At this current moment, I do not. If I were to start to offer my app development services in the future, it would primarily be iOS apps for Apple devices via Swift/SwiftUI. I know that going from React to React Native is pretty intuitive, but it is not something that interests me at this moment.",
+    },
   ];
 
   return (

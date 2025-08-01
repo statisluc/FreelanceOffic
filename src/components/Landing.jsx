@@ -91,10 +91,10 @@ function Landing() {
           sticky={{ start: 5, end: 5 }}
         >
           <h1
-            className="text-white font-oswald h-auto w-[30%] object-contain scroll-mt-[260px]"
+            className="text-white font-oswald h-auto w-[30%] object-contain scroll-mt-[260px] px-12"
             id="couldbe"
           >
-            This Could ← Be Your Website!
+            This Could Be Your Website!
           </h1>
         </ParallaxLayer>
         <ParallaxLayer sticky={{ start: 6.75, end: 8 }}>
