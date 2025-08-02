@@ -13,9 +13,11 @@ export async function handler(event) {
           user_id: process.env.EMAILJS_PUBLIC_KEY,
           accessToken: process.env.EMAILJS_PRIVATE_KEY,
           template_params: {
-            name,
-            email,
-            message,
+            name: name,
+
+            email: email,
+            reply_to: email,
+            message: message,
           },
         }),
       }
