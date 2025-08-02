@@ -96,7 +96,7 @@ function FAQ() {
     },
     {
       q: "6) How do you make your websites?",
-      a: " My websites are always made with ReactJS (HTML, Tailwind CSS, and JavaScript). For E-commernce websites, I may use an extension like Stripe or Shopify- but that is the only time I will be using anything external like that. I do not work with Framer, Wix, Google Sites, unless certain circumstances. Implementation of backend (like for contact pages and checkout pages) varies.",
+      a: " My websites are always made with ReactJS (HTML, Tailwind CSS, and JavaScript). For E-commernce websites, I may use an extension like Stripe or Shopify ONLY FOR CHECKOUT PAGES- but that is the only time I will be using anything external like that. I do not work with Framer, Wix, Google Sites, unless certain circumstances. Implementation of backend (like for contact pages and checkout pages) varies.",
     },
     {
       q: " 7) I already have another website that I want tweaked. Can you edit it for me?",
