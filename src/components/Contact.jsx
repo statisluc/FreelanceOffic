@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import Navbar from "./Navbar.jsx";
-import emailjs from "@emailjs/nodejs";
 import Card from "./Card";
 
 function AutoTextGrow(props) {
@@ -22,31 +21,32 @@ function AutoTextGrow(props) {
 }
 
 function Contact() {
-  const [sent, setSent] = useState(false);
   const [isSending, setIsSending] = useState(false);
-  const form = useRef();
+  const [sent, setSent] = useState(false);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
     setIsSending(true);
 
-    emailjs
-      .sendForm("service", "template", form.current, {
-        publicKey: "",
-      })
-      .then(
-        () => {
-          console.log("Email Success");
-          e.target.reset();
-          setSent(true);
-          setTimeout(() => setSent(false), 5000);
-          setIsSending(false);
-        },
-        (error) => {
-          console.log("Email Failed", error.text);
-          setIsSending(false);
-        }
-      );
+    const data = {
+      name: e.target.name.value,
+      email: e.target.email.value,
+      message: e.target.message.value,
+    };
+
+    const res = await fetch("/.netlify/functions/sendEmail", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+    const result = await res.json();
+    setIsSending(false);
+    if (result.success) {
+      setSent(true);
+      setTimeout(() => setSent(false), 3000);
+    } else {
+      alert("Error Sending Email");
+    }
   };
 
   return (
@@ -59,25 +59,26 @@ function Contact() {
 
         <div className="flex flex-col space-y-6 max-w-md mx-auto mt-36 scale-200">
           <form
-            ref={form}
             onSubmit={sendEmail}
             className="flex flex-col space-y-4 font-oswald text-white p-8 max-w-lg w-full"
           >
             <div className="flex space-x-4">
               <input
                 type="text"
+                name="name"
                 placeholder="Name"
                 className="input-brown text-3xl"
               />
               <input
                 type="email"
+                name="email"
                 placeholder="Email"
                 className="input-brown text-3xl"
               />
             </div>
 
-            <textarea
-              AutoTextGrow
+            <AutoTextGrow
+              name="message"
               placeholder="What Can We Help You With?"
               className="input-brown text-3xl"
             />
