@@ -115,11 +115,10 @@ function Landing() {
                 </div>
               </Card>
               <Card>
-                <h2 className="font-oswald">
+                <h2 className="">
                   So say you have a couple of questions that you need answered?
                   Well, check out my frequently asked questions by clicking the
-                  button below! Anything not answered by that page, feel free to
-                  check out my next option which is to...
+                  button below!
                 </h2>
                 <div className="flex justify-center">
                   <Link to={"/FAQ"}>
@@ -128,10 +127,11 @@ function Landing() {
                 </div>
               </Card>
               <Card>
-                <h2 className="font-oswald font-bold">
-                  ...Contact me! Click the button below to be transported to our
-                  contact page, where you can send a message to us and we will
-                  get back to you as soon as we can!
+                <h2 className="">
+                  Didn't find what you were looking for in our FAQ page? Click
+                  the button below to be transported to our contact page, where
+                  you can send a message to us and we will get back to you as
+                  soon as we can!
                 </h2>
                 <div className="flex justify-center">
                   <Link to={"/Contact"}>
