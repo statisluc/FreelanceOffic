@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import Navbar from "./Navbar.jsx";
 import Card from "./Card";
+import emailjs from "@emailjs/browser";
 
 function AutoTextGrow(props) {
   const ref = useRef();
@@ -23,30 +24,29 @@ function AutoTextGrow(props) {
 function Contact() {
   const [isSending, setIsSending] = useState(false);
   const [sent, setSent] = useState(false);
+  const form = useRef();
 
-  const sendEmail = async (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
     setIsSending(true);
 
-    const data = {
-      name: e.target.name.value,
-      email: e.target.email.value,
-      message: e.target.message.value,
-    };
-
-    const res = await fetch("/.netlify/functions/sendEmail", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
-    const result = await res.json();
-    setIsSending(false);
-    if (result.success) {
-      setSent(true);
-      setTimeout(() => setSent(false), 3000);
-    } else {
-      alert("Error Sending Email");
-    }
+    emailjs
+      .sendForm("service_z2eowck", "template_e7nnkft", form.current, {
+        publicKey: "O3zVOANdkhlp0NX92",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          setSent(true);
+          setTimeout(() => setSent(false), 3000);
+          setIsSending(false);
+          e.target.reset(); // optional: clears the form
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          setIsSending(false);
+        }
+      );
   };
 
   return (
@@ -59,6 +59,7 @@ function Contact() {
 
         <div className="flex flex-col space-y-6 max-w-md mx-auto mt-36 scale-200">
           <form
+            ref={form}
             onSubmit={sendEmail}
             className="flex flex-col space-y-4 font-oswald text-white p-8 max-w-lg w-full"
           >
@@ -88,7 +89,7 @@ function Contact() {
               disabled={isSending}
               className="bg-white text-black text-4xl font-rubik rounded-xl px-8 py-3 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed hover:bg-pink-300"
             >
-              Submit
+              {isSending ? "Sending" : "Submit"}
             </button>
           </form>
           {/* <input
