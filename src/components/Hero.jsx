@@ -6,7 +6,6 @@ function Hero() {
   return (
     <>
       <div>
-        <Navbar />
         <Landing />
       </div>
     </>
