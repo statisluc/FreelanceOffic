@@ -138,7 +138,6 @@ function FAQ() {
 
   return (
     <>
-      <Navbar />
       <div className="flex flex-col justify-start items-center text-start pt-24">
         <Card className="max-w-[1300px] text-start">
           <h1 className="font-rubik text-5xl">

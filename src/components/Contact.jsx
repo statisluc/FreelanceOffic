@@ -51,7 +51,6 @@ function Contact() {
 
   return (
     <>
-      <Navbar />
       <div className="flex flex-col justify-start items-center text-center pt-24">
         <Card>
           <h1 className="text-5xl font-rubik">Contact Page</h1>

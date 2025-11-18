@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import Landing from "./components/Landing.jsx";
 import Home from "./components/Home.jsx";
 import WhoAreWe from "./components/WhoAreWe.jsx";
+import WhyChooseUs from "./components/WhyChooseUs.jsx";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </section>
       <section>
         <WhoAreWe />
+      </section>
+      <section className="">
+        <WhyChooseUs />
       </section>
     </>
   );
