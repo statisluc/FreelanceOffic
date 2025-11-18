@@ -7,6 +7,7 @@ function Hero() {
     <>
       <div>
         <Landing />
+        <h1>Blah</h1>
       </div>
     </>
   );
