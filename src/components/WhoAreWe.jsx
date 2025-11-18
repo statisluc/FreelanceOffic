@@ -26,21 +26,17 @@ function WhoAreWe() {
               Article
             </p>
             <p className="px-4 cursor-pointer text-blue-500">Talk</p>
-            <div clasName="">
-              <p className="ml-auto cursor-pointer underline underline-offset-8 decoration-2">
+            <div className="flex flex-row ml-auto gap-5">
+              <p className=" cursor-pointer underline underline-offset-8 decoration-2">
                 Read
               </p>
-              <p className="justify-end cursor-pointer text-blue-500">
-                View Source
-              </p>
-              <p className="justify-end cursor-pointer text-blue-500">
-                View History
-              </p>
-              <p className="justify-end cursor-pointer">Tools</p>
+              <p className=" cursor-pointer text-blue-500">View Source</p>
+              <p className=" cursor-pointer text-blue-500">View History</p>
+              <p className=" cursor-pointer">Tools</p>
             </div>
           </div>
           <hr className="-translate-y-1.5 w-225 my-2 border-gray-300" />
-          <p className="text-xs">From Alexander, the CEO</p>
+          <p className="text-sm">From Alexander, the CEO</p>
           <div className="my-8 grid">
             <p>This is just a test</p>
           </div>
