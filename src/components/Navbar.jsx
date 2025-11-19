@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="py-1 fixed top-0 w-full z-50 bg-white">
+      <nav className="py-1 top-0 w-full z-50 bg-white">
         <div className="hidden md:flex items-center justify-center space-x-4">
           <Link to={"/"}>
             <button className="navbarsolution">Home</button>
