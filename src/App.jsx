@@ -10,16 +10,18 @@ function App() {
   return (
     <>
       <Navbar />
-      <Outlet />
-      <section className="bg-gradient-to-br from-pink-500 to-orange-500 min-h-screen bg-scroll;">
-        <Home />
-      </section>
-      <section>
-        <WhoAreWe />
-      </section>
-      <section className="">
-        <WhyChooseUs />
-      </section>
+      <div className="flex flex-col gap-48">
+        <Outlet />
+        <section className="bg-gradient-to-br from-pink-500 to-orange-500 min-h-screen bg-scroll;">
+          <Home />
+        </section>
+        <section>
+          <WhoAreWe />
+        </section>
+        <section className="py-12 min-h-screen bg-blue-900">
+          <WhyChooseUs />
+        </section>
+      </div>
     </>
   );
 }

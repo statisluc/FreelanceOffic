@@ -3,12 +3,12 @@ import React from "react";
 function WhoAreWe() {
   return (
     <>
-      <div className="mt-200 h-screen font-serif">
-        <h1 className="text-3xl text-black font-bold flex items-center justify-center -translate-y-40">
+      <div className="font-serif">
+        <h1 className="text-3xl text-black font-bold flex items-center justify-center">
           Just Got A Whole Lot Easier...
         </h1>
 
-        <h1 className="text-2xl mt-32 px-42 font-serif">Who Are We?</h1>
+        <h1 className="text-2xl mt-100 px-42 font-serif">Who Are We?</h1>
 
         <hr className="my-4 border-gray-300" />
 
