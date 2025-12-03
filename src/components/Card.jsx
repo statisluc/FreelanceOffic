@@ -1,34 +1,14 @@
 import React from "react";
-import { useRef, useState, useEffect } from "react";
 
-function Card({
-  children,
-  className = "",
-  threshold = 0.1,
-  rootMargin = "0px",
-}) {
-  const ref = useRef();
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setVisible(entry.isIntersecting);
-      },
-      { threshold, rootMargin }
-    );
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, [threshold, rootMargin]);
-
+function Card({ children, className }) {
   return (
     <div
-      ref={ref}
-      className={`w-full max-w-[800px] text-center transition-all duration-700 ease-out transform ${
-        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-      } bg-white p-6 rounded-xl shadow-xl ${className}`}
+      className={`base-card-styles rounded-sm
+     ${className}`}
     >
-      {children}
+      <div className="transition-transform duration-200 ease-out hover:scale-102 px-4 py-4">
+        {children}
+      </div>
     </div>
   );
 }

@@ -18,7 +18,7 @@ function App() {
         <section>
           <WhoAreWe />
         </section>
-        <section className="py-12 min-h-screen bg-blue-900">
+        <section className="py-12 min-h-screen bg-gradient-to-b from-black to-gray-800 bg-scroll min-h-screen">
           <WhyChooseUs />
         </section>
       </div>
