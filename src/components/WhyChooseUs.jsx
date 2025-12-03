@@ -10,9 +10,11 @@ function WhyChooseUs() {
         </h1>
       </div>
 
-      <div className="px-8 py-24 grid grid-cols-1 md:grid-cols-3 gap-4">
-        <Card className="bg-blue-300 w-[200px]">
-          <h1 className="text-2xl text-blue-800 font-bold flex items-center text-center justify-center">
+      <div className="px-8 py-24 flex flex-col gap-4">
+        <Card className="bg-gradient-to-br from-[#0b9be3] to-gray-800">
+          {" "}
+          {/*to-[#024363] */}
+          <h1 className="text-2xl text-gray-300 font-bold flex items-center text-center justify-center">
             RANDOM PLACEHOLDER TEXT LEEDLE LEEDLE LEEDLE YOU GET YOUR FIRST
             LITTLE PACK AND SPEND Gs AT SACS IM RICH BUT STILL GET SHIT AT
             TJ-MAXX SPESH
