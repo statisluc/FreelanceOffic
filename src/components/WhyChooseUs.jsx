@@ -5,7 +5,7 @@ function WhyChooseUs() {
   return (
     <>
       <div className="font-roboto-flex w-[700px] mx-auto">
-        <h1 className="py-24 text-3xl text-white font-bold flex items-center justify-center border border-blue-500 border-10">
+        <h1 className="py-24 text-3xl text-white font-bold flex items-center justify-center border border-blue-500 bluegradient border-10">
           Why Choose Us?
         </h1>
       </div>
@@ -55,11 +55,13 @@ function WhyChooseUs() {
         <Card className="bluegradient self-center mt-24 text-justify ">
           <p className="text-4xl self-center text-center">VDP Promises: </p>
           <div className="text-3xl text-gray-300 flex flex-col gap-y-8 mt-4 py-8">
-            <h1>-No runaround. You talk to the person doing the work </h1>
-            <h1>
+            <h1 className="transition-transform duration-200 ease-out hover:scale-102 hover:text-black">
+              -No runaround. You talk to the person doing the work{" "}
+            </h1>
+            <h1 className="transition-transform duration-200 ease-out hover:scale-102 hover:text-black">
               -No lock in. The code, docs, and keys to the car are all yours
             </h1>
-            <h1>
+            <h1 className="transition-transform duration-200 ease-out hover:scale-102 hover:text-black">
               -No ghosting. Need edits later? Something wrong with the website?
               We're right here
             </h1>
