@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Bungee+Shade&family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Monoton&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Bungee+Shade&family=Fascinate+Inline&display=swap&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
 
 @import "tailwindcss";
 
@@ -11,6 +11,7 @@
   --font-big-shoulders-inline: "Big Shoulders Inline", sans-serif;
   --font-bungee-shade: "Bungee Shade", sans-serif;
   --font-fascinate: "Fascinate Inline", sans-serif;
+  --font-roboto-flex: "Roboto Flex", sans-serif;
   --color-brown: #331a00;
 }
 
@@ -38,6 +39,9 @@
   }
   .font-fascinate {
     font-family: var(--font-fascinate);
+  }
+  .font-roboto-flex {
+    font-family: var(--font-roboto-flex);
   }
 
   @keyframes fade-slide {

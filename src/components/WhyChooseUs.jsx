@@ -4,18 +4,18 @@ import Card from "./Card.jsx";
 function WhyChooseUs() {
   return (
     <>
-      <div className="font-calibri">
-        <h1 className="py-24 text-3xl text-white fond-bold flex items-center justify-center">
+      <div className="font-roboto-flex w-[700px] mx-auto">
+        <h1 className="py-24 text-3xl text-white font-bold flex items-center justify-center border border-blue-500 border-10">
           Why Choose Us?
         </h1>
       </div>
 
-      <div className="px-8 py-24 flex flex-col gap-24 text-gray-300 text-center">
+      <div className="px-8 py-24 flex flex-col gap-24 text-gray-300 text-center font-roboto-flex">
         <Card className="bluegradient self-end w-[900px]">
           {" "}
           {/*to-[#024363] */}
           <p className="text-xs">"Be Taken Care Of"</p>
-          <h1 className="text-2xl text-gray-300 font-bold flex items-center text-center justify-center">
+          <h1 className="text-2xl text-gray-300 flex items-center text-center justify-center font-roboto-flex">
             As a small company, we pride ourselves in the personal relations we
             have with our clients. I mean - we started out having meetings with
             our clients person to person, door to door! With being such a small
