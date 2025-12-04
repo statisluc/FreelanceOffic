@@ -5,6 +5,7 @@ import Landing from "./components/Landing.jsx";
 import Home from "./components/Home.jsx";
 import WhoAreWe from "./components/WhoAreWe.jsx";
 import WhyChooseUs from "./components/WhyChooseUs.jsx";
+import OurSkills from "./components/OurSkills.jsx";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </section>
         <section className="py-12 min-h-screen bg-gradient-to-b from-black to-gray-800 bg-scroll min-h-screen">
           <WhyChooseUs />
+        </section>
+        <section>
+          <OurSkills />
         </section>
       </div>
     </>
