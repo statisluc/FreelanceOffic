@@ -14,7 +14,7 @@ function WhyChooseUs() {
         <Card className="bluegradient self-end w-[900px]">
           {" "}
           {/*to-[#024363] */}
-          <p>"Be taken care of"</p>
+          <p className="text-xs">"Be Taken Care Of"</p>
           <h1 className="text-2xl text-gray-300 font-bold flex items-center text-center justify-center">
             As a small company, we pride ourselves in the personal relations we
             have with our clients. I mean - we started out having meetings with
