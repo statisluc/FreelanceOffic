@@ -45,6 +45,7 @@ function WhyChooseUs() {
           </h1>
         </Card>
         <Card className="bluegradient self-start w-[900px]">
+          <img src="crane.png"></img>
           <p className="text-xs">“Feel Confident”</p>
           <h1 className="text-2xl text-gray-300">
             Our team of software designers, network specialists, and back-end
