@@ -7,6 +7,7 @@ import NotFound from "./components/NotFound.jsx";
 import Contact from "./components/Contact.jsx";
 import Pricing from "./components/Pricing.jsx";
 import FAQ from "./components/FAQ.jsx";
+import Portfolio from "./components/Portfolio.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -16,10 +17,11 @@ const router = createBrowserRouter([
   { path: "/Pricing", element: <Pricing /> },
   { path: "/FAQ", element: <FAQ /> },
   { path: "*", element: <NotFound /> },
+  { path: "/Portfolio", element: <Portfolio /> },
 ]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>
+  </StrictMode>,
 );

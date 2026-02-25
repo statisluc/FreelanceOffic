@@ -1,14 +1,14 @@
-//import { useState } from "react";
+// import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
   //for mobile functionality
-  //   const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
 
-  //   const toggleMenu = () => {
-  //     setMenuOpen((prev) => !prev);
-  //   };
+  // const toggleMenu = () => {
+  //   setMenuOpen((prev) => !prev);
+  // };
 
   return (
     <>
@@ -17,7 +17,9 @@ function Navbar() {
           <Link to={"/"}>
             <button className="navbarsolution">Home</button>
           </Link>
-
+          <Link to={"/Portfolio"}>
+            <button className="navbarsolution">Portfolio/Works</button>
+          </Link>
           <Link to={"/Pricing"}>
             <button className="navbarsolution">Pricing</button>
           </Link>
