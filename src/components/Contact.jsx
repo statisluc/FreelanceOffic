@@ -45,13 +45,13 @@ function Contact() {
         (error) => {
           console.log("FAILED...", error.text);
           setIsSending(false);
-        }
+        },
       );
   };
 
   return (
     <>
-      <div className="flex flex-col justify-start items-center text-center pt-24">
+      <div className="flex flex-col justify-start items-center text-center pt-24 bg-gradient-to-br from-pink-500 to-orange-500 min-h-screen">
         <Card>
           <h1 className="text-5xl font-rubik">Contact Page</h1>
         </Card>

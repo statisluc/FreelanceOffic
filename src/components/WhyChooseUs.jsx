@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./Card.jsx";
 
+//make it so that onhover, when hovering over the cards in this section, change the color to the same gradient of the website theme. also add a thick shadow of white, and make it transition as well. nice and smooth, make it seem like you interacting with the website is bringing back its energy and spirit
+
 function WhyChooseUs() {
   return (
     <>
