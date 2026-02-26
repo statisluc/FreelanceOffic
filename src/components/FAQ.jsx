@@ -138,7 +138,7 @@ function FAQ() {
 
   return (
     <>
-      <div className="flex flex-col justify-start items-center text-start pt-24">
+      <div className="flex flex-col justify-start items-center text-start pt-24 bg-gradient-to-br from-pink-500 to-orange-500">
         <Card className="max-w-[1300px] text-start">
           <h1 className="font-rubik text-5xl">
             Frequently Asked Questions (FAQ)

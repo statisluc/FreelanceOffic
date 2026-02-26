@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
-import Landing from "./Landing.jsx"; // ✅ use the landing section
+import Landing from "./Landing.jsx";
 import WhoAreWe from "./WhoAreWe.jsx";
 import WhyChooseUs from "./WhyChooseUs.jsx";
 import OurSkills from "./OurSkills.jsx";
@@ -63,7 +63,7 @@ export default function HomePage() {
       const curr = tops[i];
       const next = tops[Math.min(i + 1, tops.length - 1)];
 
-      const BLEND_ZONE = 200;
+      const BLEND_ZONE = 300;
       const start = next.top - BLEND_ZONE;
       const end = next.top;
 
