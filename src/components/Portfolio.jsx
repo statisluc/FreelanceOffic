@@ -17,7 +17,7 @@ function Portfolio() {
             <CardWrapper
               imgsrc="/littlebirdy.png"
               imgalt="Cover of Dirty Little Birdie"
-              overlayText="Fully designed and customized E-Commernce website using React, Vite, and Tailwind CSS. Headless architecture for complete UI/UX control. Utilizes Shopify API to manage products, cart creation, and checkout. Implemented secure backend logic using Netlify Functions to protect API keys and handling form/email (Contact Page) processing. Kitted with custom product gallery, zoom interactions, size charts, animated transitions, navbar routing, etc. [CONTRACTED BY: ANTHONY MARX]"
+              overlayText="Fully designed and customized E-Commerce website using React, Vite, and Tailwind CSS. Headless architecture for complete UI/UX control. Utilizes Shopify API to manage products, cart creation, and checkout. Implemented secure backend logic using Netlify Functions to protect API keys and handling form/email (Contact Page) processing. Kitted with custom product gallery, zoom interactions, size charts, animated transitions, navbar routing, etc. [CONTRACTED BY: ANTHONY MARX]"
               ctaText="Click To Shop At Dirty Little Birdie!"
               href="https://dirtylittlebirdie.com"
               ctaclassName="mt-4 block bg-pink-300 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-pink-800 focus:outline-none transition-colors duration-200"
