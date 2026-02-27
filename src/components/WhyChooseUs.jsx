@@ -6,14 +6,14 @@ import Card from "./Card.jsx";
 function WhyChooseUs() {
   return (
     <>
-      <div className="font-roboto-flex w-[700px] mx-auto">
-        <h1 className="py-24 text-3xl text-white font-bold flex items-center justify-center border border-blue-500 bluegradient border-10">
+      <div className="font-roboto-flex w-[700px] mx-auto ">
+        <h1 className="py-24 text-3xl text-white font-bold flex items-center justify-center border border-bg-gradient-to-br from-pink-500 to-orange-500 hover:bluegradient border-10 ">
           Why Choose Us?
         </h1>
       </div>
 
       <div className="px-8 py-24 flex flex-col gap-24 text-gray-300 text-center font-roboto-flex">
-        <Card className="bluegradient self-end w-[900px]">
+        <Card className="bluegradient self-end w-[900px] hovergradient transition-colors transition-all duration-300">
           {" "}
           {/*to-[#024363] */}
           <div className="flex flex-row">
@@ -33,7 +33,7 @@ function WhyChooseUs() {
             </div>
           </div>
         </Card>
-        <Card className="bluegradient self-start w-[900px]">
+        <Card className="bluegradient self-start w-[900px] hovergradient transition-colors transition-all duration-300">
           <div className="flex flex-row">
             <div>
               <img className="object-contain" src="partner.png"></img>
@@ -51,7 +51,7 @@ function WhyChooseUs() {
             </div>
           </div>
         </Card>
-        <Card className="bluegradient self-end w-[900px]">
+        <Card className="bluegradient self-end w-[900px] hovergradient transition-colors transition-all duration-300">
           <div className="flex flex-row">
             <div>
               <img className="object-contain" src="crane.png"></img>
@@ -68,7 +68,7 @@ function WhyChooseUs() {
             </div>
           </div>
         </Card>
-        <Card className="bluegradient self-start w-[900px]">
+        <Card className="bluegradient self-start w-[900px] hovergradient transition-colors transition-all duration-300">
           <div className="flex flex-row">
             <div>
               <img className="object-contain" src="people.png"></img>
@@ -84,7 +84,7 @@ function WhyChooseUs() {
             </div>
           </div>
         </Card>
-        <Card className="bluegradient self-center mt-24 text-justify ">
+        <Card className="bluegradient self-center mt-24 text-justify hovergradient transition-colors transition-all duration-300">
           <p className="text-4xl self-center text-center">VDP Promises: </p>
           <div className="text-3xl text-gray-300 flex flex-col text-center gap-y-8 mt-4 py-8">
             <h1 className="transition-transform duration-200 ease-out hover:scale-102 hover:text-black">
