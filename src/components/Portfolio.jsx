@@ -38,6 +38,14 @@ function Portfolio() {
               href="https://vdpsolutions.tech"
               ctaclassName="mt-4 block bg-orange-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-blue-800 focus:outline-none transition-colors duration-200"
             />
+            <CardWrapper
+              imgsrc=""
+              imgalt="Cover of Restaurant Ordering System"
+              overlayText="LAN-only restaurant ordering system (customer web app + kitchen dashboard) that works offline on local Wi-Fi. Uses React + Node/Express, SQLite, real-time updates via Socket.IO. Real-Time order flow (new order alerts, status changes from Received / In Progress / Ready / Completed) with WebSocket eventing. Restricts API and WebSocket connections to private IP ranges to avoid unwanted internet access. Designed and optimized lightweight data layer in SQLite including validation/error handling, REST endpoints for menu, cart checkout, and kitchen operations"
+              ctaText="Click for Github Repo!"
+              href=""
+              ctaclassName="mt-4 block bg-red-500 text-white font-bold px-6 py-3 rounded-full shadow-md hover:bg-red-300 focus:outline-none transition-colors duration-200"
+            />
           </div>
         </div>
       </>
