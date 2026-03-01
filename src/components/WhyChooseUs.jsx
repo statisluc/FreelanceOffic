@@ -25,11 +25,10 @@ function WhyChooseUs() {
               <p className="text-xs">"Be Taken Care Of"</p>
               <h1 className="text-2xl text-gray-300 flex items-center text-center justify-center font-roboto-flex">
                 As a small company, we pride ourselves in the personal relations
-                we have with our clients. I mean - we started out having
-                meetings with our clients person to person, door to door! With
-                being such a small business, we treat every client as a number
-                one priority (unlike the bigger guys that can afford to forget
-                about us).
+                we have with our clients - I started with having in-person
+                meetings with my client! With being such a small business, we
+                treat every client as a number one priority, nobody is forgotten
+                about.
               </h1>
             </div>
           </div>
@@ -60,11 +59,9 @@ function WhyChooseUs() {
             <div className="flex flex-col items-center justify-center">
               <p className="text-xs">"Be Unique"</p>
               <h1 className="text-2xl text-gray-300">
-                We handcraft each website - no Framer, no Shopify, no Wix, none
-                of that. Our freedom to build our software from scratch means
-                whatever you want, we can get you. The ceiling is our
-                imagination, not whatever limits these drag and drop “website
-                creation” applications enforce.{" "}
+                We handcraft each website - no Framer, no Shopify, no Wix. Our
+                freedom to build our software from scratch means whatever you
+                want, we can get you. The ceiling is our imagination.{" "}
               </h1>
             </div>
           </div>
@@ -78,9 +75,8 @@ function WhyChooseUs() {
               <p className="text-xs">“Feel Confident”</p>
               <h1 className="text-2xl text-gray-300">
                 Our team of software designers, network specialists, and
-                back-end programmers are all certified in their roles - and we
-                only hire from within the “family”. We stand as one, and
-                together we stand by you.
+                back-end programmers are all certified in their roles. We stand
+                as one, and together we stand by you.
               </h1>
             </div>
           </div>

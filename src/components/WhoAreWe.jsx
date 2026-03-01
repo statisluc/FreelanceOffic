@@ -45,8 +45,8 @@ function WhoAreWe() {
                 one simple idea - help small businesses promote themselves with
                 websites that are actually{" "}
                 <span className="text-blue-600">theirs.</span> We work with you
-                -- yes <span className="text-blue-600">YOU</span> -- to ensure
-                we create a user interface that not only we would be happy with,
+                - yes <span className="text-blue-600">YOU</span> - to ensure we
+                create a user interface that not only we would be happy with,
                 but more importantly, your customers!
               </p>
               <p className="mt-3">
@@ -70,17 +70,17 @@ function WhoAreWe() {
                 <span className="text-blue-600">way</span> too many questions
                 about you, your shop, your customers, your goal, and your social
                 security number. His passion in delivering top of the line
-                software solutions -- whether its a whole website, part of a
+                software solutions - whether its a whole website, part of a
                 website, creating an application, mini-games, portfolio pages,
-                and whatever else within our scope -- is the coal that powers
+                and whatever else within our scope - is the coal that powers
                 this VDP train (cheesy, we know).
               </p>
               <p className="mt-3">
                 We stay small on <span className="text-blue-600">purpose.</span>{" "}
-                That means your project isn't on a queue or on hold -- it's on
+                That means your project isn't on a queue or on hold - it's on
                 our desk, staring at us, and we're staring at it{" "}
                 <span className="text-blue-600">right back.</span> We build with
-                you, so your site looks good, loads fast, and actually helps you
+                you so your site looks good, loads fast, and actually helps you
                 sell yourself.{" "}
                 <span className="text-blue-600">
                   So what are you waiting for!?
