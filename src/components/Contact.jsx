@@ -56,7 +56,7 @@ function Contact() {
           <h1 className="text-5xl font-rubik">Contact Page</h1>
           <h2 className="text-3xl font-rubik">
             Currently Undergoing Maintenance - please email
-            alexanderefvaldez@gmail directly
+            [alexanderefvaldez@gmail] directly
           </h2>
         </Card>
 
