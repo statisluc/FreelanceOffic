@@ -112,7 +112,7 @@ function WhoAreWe() {
                   <p className="font-bold">Products:</p>
                   <p>Software, Websites, Apps, Jokes</p>
                   <p className="font-bold">Number of Employees:</p>
-                  <p>4</p>
+                  <p>2.5</p>
                   <p className="font-bold">Website:</p>
                   <p className="text-sm underline text-blue-600 hover:text-blue-800">
                     vdpsolutions.tech
