@@ -54,6 +54,10 @@ function Contact() {
       <div className="flex flex-col justify-start items-center text-center pt-24 bg-gradient-to-br from-pink-500 to-orange-500 min-h-screen">
         <Card>
           <h1 className="text-5xl font-rubik">Contact Page</h1>
+          <h2 className="text-3xl font-rubik">
+            Currently Undergoing Maintenance - please email
+            alexanderefvaldez@gmail directly
+          </h2>
         </Card>
 
         <div className="flex flex-col space-y-6 max-w-md mx-auto mt-36 scale-200">
