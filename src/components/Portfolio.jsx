@@ -15,7 +15,7 @@ function Portfolio() {
           <p></p>
           <div className="flex flex-col gap-18">
             <CardWrapper
-              imgsrc="respos.png"
+              imgsrc="restapos.png"
               imgalt="Cover of Restaurant Ordering System"
               overlayText="LAN-only restaurant ordering system (customer web app + kitchen dashboard) that works offline on local Wi-Fi. Uses React + Node/Express, SQLite, real-time updates via Socket.IO. Real-Time order flow (new order alerts, status changes from Received / In Progress / Ready / Completed) with WebSocket eventing. Restricts API and WebSocket connections to private IP ranges to avoid unwanted internet access. Designed and optimized lightweight data layer in SQLite including validation/error handling, REST endpoints for menu, cart checkout, and kitchen operations"
               ctaText="Click for Github Repo!"
