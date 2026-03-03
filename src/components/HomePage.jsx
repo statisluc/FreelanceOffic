@@ -38,6 +38,8 @@ export default function HomePage() {
     q: 0,
   });
 
+  const [mounted, setMounted] = useState(false);
+
   useEffect(() => {
     let raf = 0;
 
@@ -90,15 +92,32 @@ export default function HomePage() {
     };
   }, [stops]);
 
-  const motionA = {
-    transform: `translateY(${stage.p * 18}px) scale(${1.06 + stage.p * 0.03}) rotate(${-0.25 + stage.p * 0.5}deg)`,
-    willChange: "transform, opacity",
-  };
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-  const motionB = {
-    transform: `translateY(${stage.q * 18}px) scale(${1.06 + stage.q * 0.03}) rotate(${-0.25 + stage.q * 0.5}deg)`,
-    willChange: "transform, opacity",
-  };
+  // const motionA = {
+  //   transform: `translateY(${stage.p * 18}px) scale(${1.06 + stage.p * 0.03}) rotate(${-0.25 + stage.p * 0.5}deg)`,
+  //   willChange: "transform, opacity",
+  // };
+
+  // const motionB = {
+  //   transform: `translateY(${stage.q * 18}px) scale(${1.06 + stage.q * 0.03}) rotate(${-0.25 + stage.q * 0.5}deg)`,
+  //   willChange: "transform, opacity",
+  // };
+  const motionA = mounted
+    ? {
+        transform: `translateY(${stage.p * 18}px) scale(${1.06 + stage.p * 0.03}) rotate(${-0.25 + stage.p * 0.5}deg)`,
+        willChange: "transform, opacity",
+      }
+    : { willChange: "opacity" };
+
+  const motionB = mounted
+    ? {
+        transform: `translateY(${stage.q * 18}px) scale(${1.06 + stage.q * 0.03}) rotate(${-0.25 + stage.q * 0.5}deg)`,
+        willChange: "transform, opacity",
+      }
+    : { willChange: "opacity" };
 
   return (
     <>
